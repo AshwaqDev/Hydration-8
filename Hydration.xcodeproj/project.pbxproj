@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		75D9BB082CCE1D9D00784418 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75D9BAEF2CCE1D9B00784418 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75D9BAF62CCE1D9B00784418;
-			remoteInfo = Hydration;
-		};
-		75D9BB122CCE1D9D00784418 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75D9BAEF2CCE1D9B00784418 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75D9BAF62CCE1D9B00784418;
-			remoteInfo = Hydration;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		75D9BAF72CCE1D9B00784418 /* Hydration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydration.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		75D9BB072CCE1D9D00784418 /* HydrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75D9BB112CCE1D9D00784418 /* HydrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -55,20 +36,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75D9BB042CCE1D9D00784418 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75D9BB0E2CCE1D9D00784418 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				75D9BAF72CCE1D9B00784418 /* Hydration.app */,
-				75D9BB072CCE1D9D00784418 /* HydrationTests.xctest */,
-				75D9BB112CCE1D9D00784418 /* HydrationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +82,6 @@
 			productReference = 75D9BAF72CCE1D9B00784418 /* Hydration.app */;
 			productType = "com.apple.product-type.application";
 		};
-		75D9BB062CCE1D9D00784418 /* HydrationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75D9BB1E2CCE1D9D00784418 /* Build configuration list for PBXNativeTarget "HydrationTests" */;
-			buildPhases = (
-				75D9BB032CCE1D9D00784418 /* Sources */,
-				75D9BB042CCE1D9D00784418 /* Frameworks */,
-				75D9BB052CCE1D9D00784418 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75D9BB092CCE1D9D00784418 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				75D9BB0A2CCE1D9D00784418 /* HydrationTests */,
-			);
-			name = HydrationTests;
-			packageProductDependencies = (
-			);
-			productName = HydrationTests;
-			productReference = 75D9BB072CCE1D9D00784418 /* HydrationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		75D9BB102CCE1D9D00784418 /* HydrationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75D9BB212CCE1D9D00784418 /* Build configuration list for PBXNativeTarget "HydrationUITests" */;
-			buildPhases = (
-				75D9BB0D2CCE1D9D00784418 /* Sources */,
-				75D9BB0E2CCE1D9D00784418 /* Frameworks */,
-				75D9BB0F2CCE1D9D00784418 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75D9BB132CCE1D9D00784418 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				75D9BB142CCE1D9D00784418 /* HydrationUITests */,
-			);
-			name = HydrationUITests;
-			packageProductDependencies = (
-			);
-			productName = HydrationUITests;
-			productReference = 75D9BB112CCE1D9D00784418 /* HydrationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +94,6 @@
 				TargetAttributes = {
 					75D9BAF62CCE1D9B00784418 = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					75D9BB062CCE1D9D00784418 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 75D9BAF62CCE1D9B00784418;
-					};
-					75D9BB102CCE1D9D00784418 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 75D9BAF62CCE1D9B00784418;
 					};
 				};
 			};
@@ -201,28 +112,12 @@
 			projectRoot = "";
 			targets = (
 				75D9BAF62CCE1D9B00784418 /* Hydration */,
-				75D9BB062CCE1D9D00784418 /* HydrationTests */,
-				75D9BB102CCE1D9D00784418 /* HydrationUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		75D9BAF52CCE1D9B00784418 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75D9BB052CCE1D9D00784418 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75D9BB0F2CCE1D9D00784418 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +134,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75D9BB032CCE1D9D00784418 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75D9BB0D2CCE1D9D00784418 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		75D9BB092CCE1D9D00784418 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 75D9BAF62CCE1D9B00784418 /* Hydration */;
-			targetProxy = 75D9BB082CCE1D9D00784418 /* PBXContainerItemProxy */;
-		};
-		75D9BB132CCE1D9D00784418 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 75D9BAF62CCE1D9B00784418 /* Hydration */;
-			targetProxy = 75D9BB122CCE1D9D00784418 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		75D9BB192CCE1D9D00784418 /* Debug */ = {
@@ -396,6 +264,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hydration/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X7AX8RVKB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hydration/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X7AX8RVKB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,74 +314,6 @@
 			};
 			name = Release;
 		};
-		75D9BB1F2CCE1D9D00784418 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.HydrationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydration";
-			};
-			name = Debug;
-		};
-		75D9BB202CCE1D9D00784418 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.HydrationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydration";
-			};
-			name = Release;
-		};
-		75D9BB222CCE1D9D00784418 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.HydrationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Hydration;
-			};
-			name = Debug;
-		};
-		75D9BB232CCE1D9D00784418 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.HydrationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Hydration;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -529,24 +331,6 @@
 			buildConfigurations = (
 				75D9BB1C2CCE1D9D00784418 /* Debug */,
 				75D9BB1D2CCE1D9D00784418 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75D9BB1E2CCE1D9D00784418 /* Build configuration list for PBXNativeTarget "HydrationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75D9BB1F2CCE1D9D00784418 /* Debug */,
-				75D9BB202CCE1D9D00784418 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75D9BB212CCE1D9D00784418 /* Build configuration list for PBXNativeTarget "HydrationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75D9BB222CCE1D9D00784418 /* Debug */,
-				75D9BB232CCE1D9D00784418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

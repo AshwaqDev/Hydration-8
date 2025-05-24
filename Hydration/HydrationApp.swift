@@ -11,7 +11,9 @@ import SwiftUI
 struct HydrationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+                    NavigationView {
+                        WeightInputView()
+                    }
+                }
     }
 }
